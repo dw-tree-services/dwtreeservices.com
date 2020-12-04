@@ -34,6 +34,7 @@ ul.icons li {
 }
 
 h1, h2, h3, h4, h5, h6 {
+	color: #075729;
 	text-transform: none;
 	letter-spacing: 0;
 }
