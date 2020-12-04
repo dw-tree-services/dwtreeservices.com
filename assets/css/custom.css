@@ -1,0 +1,95 @@
+/* Green: #075729 */
+/* Light Green: #28DA12 */
+/* Yellow: #FAEA26 */
+/* Gradient: linear-gradient(#075729, #28DA12) */
+
+body,
+#wrapper > .bg,
+#wrapper.fade-in:before {
+  background-color: #075729;
+}
+
+#wrapper > .bg {
+  background-image: none;
+}
+
+#nav {
+  background: #28292A;
+}
+
+ul.icons li {
+  padding-right: 1rem;
+  font-size: 0.8rem;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+#nav ul.icons li a {
+  border-bottom: 0;
+}
+#nav ul.icons li a:hover {
+  color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+label {
+	text-transform: none;
+}
+
+input[type="submit"].primary,
+input[type="reset"].primary,
+input[type="button"].primary,
+button.primary,
+.button.primary {
+	background-color: #075729;
+}
+
+#header {
+  margin-top: 4rem;
+  height: initial;
+}
+
+#header a {
+  border: 0;
+  pointer-events: auto;
+}
+
+#header img {
+  max-width: 31.25rem;
+  width: 100%;
+  padding: 2rem;
+}
+
+#main > .post.featured ul,
+#main > .post.featured ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: -1rem;
+}
+
+a.image.footer {
+  overflow: visible;
+}
+a.image.footer > img {
+  max-width: 100%;
+}
+
+br + a.image.footer {
+  margin-top: 0.5rem;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"], button, .button {
+  border-radius: 4px;
+}
+
+#footer input[type="text"], #footer input[type="password"], #footer input[type="email"], #footer select, #footer textarea {
+  border-radius: 4px;
+}
+
+
